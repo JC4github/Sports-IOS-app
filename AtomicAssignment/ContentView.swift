@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                SportDetailView(sportName: viewModel.currentSport.0, sportDescription: viewModel.currentSport.1)
+                SportDetailView(sportName: viewModel.currentSport.name, sportDescription: viewModel.currentSport.description)
                     .transition(.scale)
                     .animation(.default, value: 1)
                 
@@ -38,5 +38,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(viewModel: SportViewModel(sportsList: [("Soccer", "Soccer, also known as football in most parts of the world, is a popular team sport played on a rectangular field with two teams of eleven players each. The objective of the game is to score goals by getting the ball into the opposing team's net. It is a fast-paced sport that requires skill, teamwork, and strategy.")]))
+    ContentView(viewModel: SportViewModel())
 }

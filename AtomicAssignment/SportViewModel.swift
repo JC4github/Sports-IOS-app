@@ -10,17 +10,13 @@ import Foundation
 class SportViewModel: ObservableObject {
     @Published private var index = 0
 
-    private let sportsList: [(String, String)]
+    private let sportsData = SportsData.sports_data
 
-    init(sportsList: [(String, String)]) {
-        self.sportsList = sportsList
-    }
-
-    var currentSport: (String, String) {
-        return sportsList[index]
+    var currentSport: Sport {
+        return sportsData.sportsList[index]
     }
 
     func nextSport() {
-        index = (index + 1) % sportsList.count
+        index = (index + 1) % sportsData.sportsList.count
     }
 }

@@ -16,6 +16,8 @@
 		F87596C82AC3DEA600CC1173 /* AtomicAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87596C72AC3DEA600CC1173 /* AtomicAssignmentUITestsLaunchTests.swift */; };
 		F87596D52AC3E3B200CC1173 /* SportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87596D42AC3E3B200CC1173 /* SportDetailView.swift */; };
 		F87596D72AC405CD00CC1173 /* SportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87596D62AC405CD00CC1173 /* SportViewModel.swift */; };
+		F87596D92AC40D1800CC1173 /* SportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87596D82AC40D1800CC1173 /* SportsData.swift */; };
+		F87596DB2AC40DC700CC1173 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87596DA2AC40DC700CC1173 /* Sport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		F87596C72AC3DEA600CC1173 /* AtomicAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F87596D42AC3E3B200CC1173 /* SportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportDetailView.swift; sourceTree = "<group>"; };
 		F87596D62AC405CD00CC1173 /* SportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportViewModel.swift; sourceTree = "<group>"; };
+		F87596D82AC40D1800CC1173 /* SportsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsData.swift; sourceTree = "<group>"; };
+		F87596DA2AC40DC700CC1173 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				F87596B02AC3DEA600CC1173 /* Preview Content */,
 				F87596D42AC3E3B200CC1173 /* SportDetailView.swift */,
 				F87596D62AC405CD00CC1173 /* SportViewModel.swift */,
+				F87596D82AC40D1800CC1173 /* SportsData.swift */,
+				F87596DA2AC40DC700CC1173 /* Sport.swift */,
 			);
 			path = AtomicAssignment;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				F87596D52AC3E3B200CC1173 /* SportDetailView.swift in Sources */,
 				F87596AD2AC3DEA400CC1173 /* ContentView.swift in Sources */,
 				F87596AB2AC3DEA400CC1173 /* AtomicAssignmentApp.swift in Sources */,
+				F87596D92AC40D1800CC1173 /* SportsData.swift in Sources */,
+				F87596DB2AC40DC700CC1173 /* Sport.swift in Sources */,
 				F87596D72AC405CD00CC1173 /* SportViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
