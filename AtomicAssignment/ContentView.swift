@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AtomicAssignment
 //
-//  Created by Boss Man on 27/09/23.
+//  Created by Jace Ye on 27/09/23.
 //
 
 import SwiftUI
@@ -15,9 +15,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                SportDetailView(sportName: viewModel.currentSport.name, sportDescription: viewModel.currentSport.description)
+                SportDetailView(sportName: viewModel.currentSport.name, sportDescription: viewModel.currentSport.description, emoji: viewModel.currentSport.emoji)
                     .transition(.scale)
                     .animation(.default, value: 1)
+                
+                Spacer()
                 
                 Button(action: {
                     viewModel.nextSport()

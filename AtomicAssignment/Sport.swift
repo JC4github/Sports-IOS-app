@@ -2,7 +2,7 @@
 //  Sport.swift
 //  AtomicAssignment
 //
-//  Created by Boss Man on 27/09/23.
+//  Created by Jace Ye on 27/09/23.
 //
 
 import Foundation
@@ -10,4 +10,5 @@ import Foundation
 struct Sport {
     let name: String
     let description: String
+    let emoji: String
 }
