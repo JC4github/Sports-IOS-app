@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A SwiftUI view displaying information about a particular sports.
 struct SportDetailView: View {
     let sportName: String
     let sportDescription: String

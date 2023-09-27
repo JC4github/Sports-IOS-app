@@ -7,9 +7,12 @@
 
 import SwiftUI
 
+/// A SwiftUI view displaying information about sports and allowing users to refresh to see different featured sports.
 struct ContentView: View {
+    /// The index of the currently displayed sport in the `SportViewModel`.
     @State private var index = 0
     
+    /// The view model responsible for managing sports data and logic.
     @ObservedObject var viewModel: SportViewModel
     
     var body: some View {
